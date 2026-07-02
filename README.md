@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ### 2. Pretrained Models
 Prepare the following pretrained weights before running:
 1.  **Base Diffusion Model**: `black-forest-labs/FLUX.1-dev`
-2.  **RDNet Weights** (from CVPR 2024 paper *Revisiting Single Image Reflection Removal in the Wild*):
+2.  **<a href='https://cloud.189.cn/t/fMreAnJvIj2a（访问码：2in6）'>RDNet Weights</a>** (from CVPR 2024 paper *Revisiting Single Image Reflection Removal in the Wild*):
     - `RD.pth`
     - `efficientnet-b3-5fb5a3c3.pth`
 
@@ -65,16 +65,16 @@ We support 3 standard SIRR (Single Image Reflection Removal) benchmarks:
 
 | Dataset | Total Pairs | Train Split | Test Split | Description |
 |:--------|:-----------:|:-----------:|:----------:|:------------|
-| Real    | 110         | 90          | 20         | Paired images of natural scenes |
-| Nature  | 220         | 200         | 20         | Real-world pairs captured by Canon camera |
-| RR4K    | 1326        | 1230        | 96         | High-resolution 4K image pairs |
+| <a href='https://cloud.189.cn/t/fMreAnJvIj2a（访问码：2in6）'>Real</a>    | 110         | 90          | 20         | Paired images of natural scenes |
+| <a href='https://cloud.189.cn/t/fMreAnJvIj2a（访问码：2in6）'>Nature</a>  | 220         | 200         | 20         | Real-world pairs captured by Canon camera |
+| <a href='https://pan.baidu.com/s/1yJ5Sdnd8rFtR1CitsCeL9g?pwd=rr4K'>RR4K</a>    | 1326        | 1230        | 96         | High-resolution 4K image pairs |
 
 ### 4. Training
 Following the common protocol of SIRR methods:
 - Train on **Nature + Real** datasets for general scene reflection removal
 - Train separately on **RR4K** for high-resolution scenarios
 
-We also provide pretrained checkpoints to skip training:
+We also provide pretrained <a href='https://pan.baidu.com/s/1yJ5Sdnd8rFtR1CitsCeL9g?pwd=rr4K'>checkpoints</a> to skip training:
 - General scenario: `checkpoint-5200`
 - High-resolution (RR4K): `rr4k_checkpoint-5200`
 
