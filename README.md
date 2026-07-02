@@ -1,4 +1,4 @@
-<h1 align="center"> ReLo-IRR:<br>Reflection-Guided Lora Framework for Image Reflection Removal </h1>
+<h1 align="center"> ReLo-IRR: Reflection-Guided Lora Framework for Image Reflection Removal </h1>
 <div align="center">
   <a href=''><img src='https://img.shields.io/badge/ArXiv-red?logo=arxiv'></a>  &nbsp;
   <a href="https://github.com/KONGBAI-8080/ReLo-IRR"><img src="https://img.shields.io/badge/Code-9E95B7?logo=github"></a> &nbsp; 
